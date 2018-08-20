@@ -37,7 +37,7 @@ RUN Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Ne
 #Install Git
 RUN choco install git.install --params "/GitAndUnixToolsOnPath" -y --force;
 
-RUN git clone https://github.com/superpikar/learn-classic-asp.git c:\inetpub\wwwroot\learn;
+RUN git clone https://github.com/rbmathis/learn-classic-asp.git c:\inetpub\wwwroot\learn;
 
 RUN powershell -Command `
     Add-WindowsFeature Web-Server; `
