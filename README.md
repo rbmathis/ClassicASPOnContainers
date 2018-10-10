@@ -1,5 +1,5 @@
-# ClassicASPOnContainers
-Example multi-layer windows container to show build-up and code deployment.
+# Classic ASP On Containers
+Example multi-layer windows container to show build-up and code deployment. Uses a ton of great example work found at https://github.com/CSEANZ/WindowsContainers and https://github.com/superpikar/learn-classic-asp
 
 Intended to be followed step-by-step to demonstrate how containers benefit many different teams and personas in the pipeline.
 
